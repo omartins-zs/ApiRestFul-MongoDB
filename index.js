@@ -22,7 +22,9 @@ app.post('/person', async (req, res) => {
     // {name: "Gabriel", salary: 600, approved: false}
     const { name, salary, approved } = req.body
 
-
+    if (!name) {
+        res.status(422).json({ message: 'O nome é obrigatório!' })
+    }
 
     const person = {
         name,
