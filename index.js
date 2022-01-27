@@ -36,7 +36,7 @@ app.post('/person', async (req, res) => {
     try {
         await Person.create(person)
 
-        res.status(201).json({ message: 'Pessoa inserida no sistema com sucesso!' })
+        res.status(201).json({ message: 'Pessoa inserida no sistema com sucesso!!' })
     } catch (error) {
         res.status(500).json({ error: error })
     }
