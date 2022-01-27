@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/omartins-zs/ApiRestFul-MongoDB/issues"
   },
-  "homepage": "https://github.com/omartins-zs/ApiRestFul-MongoDB#readme"
+  "homepage": "https://github.com/omartins-zs/ApiRestFul-MongoDB#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
