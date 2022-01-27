@@ -14,6 +14,32 @@ app.use(
 
 app.use(express.json())
 
+// Rotas da Api 
+app.post('/person', async (req, res) => {
+
+    // req.body
+
+    // {name: "Gabriel", salary: 600, approved: false}
+    const { name, salary, approved } = req.body
+
+
+
+    const person = {
+        name,
+        salary,
+        approved
+    }
+
+    // Create 
+    try {
+        await Person.create(person)
+
+        res.status(201).json({ message: 'Pessoa inserida no sistema com sucesso!' })
+    } catch (error) {
+        res.status(500).json({ error: error })
+    }
+})
+
 // Rota Inicial / endpoint
 app.get('/', (req, res) => {
 
