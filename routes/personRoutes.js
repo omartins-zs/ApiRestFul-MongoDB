@@ -27,6 +27,7 @@ router.post('/', async (req, res) => {
         await Person.create(person)
 
         res.status(201).json({ message: 'Pessoa inserida no sistema com sucesso!!' })
+        return
     } catch (error) {
         res.status(500).json({ error: error })
     }
@@ -51,8 +52,46 @@ router.get('/:id', async (req, res) => {
     try {
         // People = Pessoas
         const person = await Person.findOne({ _id: id })
+        if (!person) {
+            res.status(422).json({ message: 'O usuário não foi encontrado!' })
+            return
+
+        }
+        res.status(200).json(person)
+    } catch (error) {
+        res.status(500).json({ error: error })
+    }
+})
+
+// UPDATE - Atualização de Dados (PUT, PATCH)
+
+// O método de requisição HTTP PATCH aplica modificações parciais a um recurso.
+// O método HTTP PUT permite apenas substituições completas de um documento.
+
+router.patch('/:id', async (req, res) => {
+
+    const id = req.params.id
+
+    const { name, salary, approved } = req.body
+
+    const person = {
+        name,
+        salary,
+        approved
+    }
+
+    try {
+        // People = Pessoas
+        const updatePerson = await Person.updateOne({ _id: id }, person)
+
+        if (updatePerson.matchedCount === 0) {
+            res.status(422).json({ message: 'O usuário não foi encontrado!' })
+            return
+        }
 
         res.status(200).json(person)
+        return
+
     } catch (error) {
         res.status(500).json({ error: error })
     }
