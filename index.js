@@ -1,6 +1,8 @@
 // Config Inicial
+require('dotenv').config()
 const express = require('express')
 const mongoose = require('mongoose')
+
 const app = express()
 
 
@@ -27,8 +29,8 @@ app.get('/', (req, res) => {
 })
 
 // Entregar uma porta
-const DB_USER = 'BielMartins'
-const DB_PASSWORD = encodeURIComponent('WTPBWP6XZ5fkBuAt')
+const DB_USER = process.env.DB_USER
+const DB_PASSWORD = encodeURIComponent(process.env.DB_PASSWORD)
 
 mongoose
     .connect(`mongodb+srv://${DB_USER}:${DB_PASSWORD}@apicluster.8xadz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`)
