@@ -3,7 +3,6 @@ const express = require('express')
 const mongoose = require('mongoose')
 const app = express()
 
-const Person = require('./models/Person')
 
 // Forma de ler JSON / middlewares
 app.use(
@@ -15,32 +14,9 @@ app.use(
 app.use(express.json())
 
 // Rotas da Api 
-app.post('/person', async (req, res) => {
+const personRoutes = require('./routes/personRoutes')
 
-    // req.body
-
-    // {name: "Gabriel", salary: 600, approved: false}
-    const { name, salary, approved } = req.body
-
-    if (!name) {
-        res.status(422).json({ message: 'O nome é obrigatório!' })
-    }
-
-    const person = {
-        name,
-        salary,
-        approved
-    }
-
-    // Create 
-    try {
-        await Person.create(person)
-
-        res.status(201).json({ message: 'Pessoa inserida no sistema com sucesso!!' })
-    } catch (error) {
-        res.status(500).json({ error: error })
-    }
-})
+app.use('/person', personRoutes)
 
 // Rota Inicial / endpoint
 app.get('/', (req, res) => {
