@@ -2,7 +2,9 @@ const router = require('express').Router();
 
 const Person = require('../models/Person')
 
-// Rotas da Api 
+// Rotas da Api
+
+// Create - Criaçao
 router.post('/', async (req, res) => {
 
     // req.body
@@ -30,4 +32,15 @@ router.post('/', async (req, res) => {
     }
 })
 
+// Read - Leitura de dados
+router.get('/', async (req, res) => {
+    try {
+        // People = Pessoas
+        const people = await Person.find()
+
+        res.status(200).json(people)
+    } catch (error) {
+        res.status(500).json({ error: error })
+    }
+})
 module.exports = router;
