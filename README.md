@@ -26,3 +26,16 @@ Banco de Dados: [MongoDB](https://www.mongodb.com/try/download/community)
 
   <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
 </p>
+
+## Rodando localmente
+
+Instale as dependências
+
+```bash
+  npm install
+```
+
+Para Iniciar o projeto
+```bash
+npm init -y
+```
