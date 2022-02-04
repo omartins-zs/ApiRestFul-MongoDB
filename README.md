@@ -87,9 +87,14 @@ JSON (forma de tratar as requisições e respostas);
 
 ## Aprendizados
 
-1.Criação de API com Node
-2.Utilização do framework Express
-3.CRUD com MongoDB
-4.Criar uma aplicação com Mongoose
-5.Utilizar DB em Cloud (MongoDB Atlas)
-6.Noções de API (request, response, JSON)
+1. Criação de API com Node
+
+2. Utilização do framework Express
+
+3. CRUD com MongoDB
+
+4. Criar uma aplicação com Mongoose
+
+5. Utilizar DB em Cloud (MongoDB Atlas)
+
+6. Noções de API (request, response, JSON)
