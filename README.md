@@ -40,6 +40,33 @@ Para Iniciar o projeto
 npm init -y
 ```
 
+Para rodar o projeto e Iniciar Servidor
+```bash
+npm start
+```
+
+## Instalação Bibliotecas Utilizadas
+
+Nodemon
+```bash
+npm i nodemon
+```
+
+Express
+```bash
+npm i express
+```
+
+Mongoose
+```bash
+npm i mongoose
+```
+
+DotEnv
+```bash
+npm i dotenv
+```
+
 ## 🚀 Tecnologias
 
 Node.js;
