@@ -98,3 +98,11 @@ JSON (forma de tratar as requisições e respostas);
 5. Utilizar DB em Cloud (MongoDB Atlas)
 
 6. Noções de API (request, response, JSON)
+
+## 🔗 Referência
+
+ - Curso da Udemy [Node.js: Crie sua primeira API RESTful com MongoDB](https://www.udemy.com/course/nodejs-crie-sua-primeira-api-restful-com-mongodb/)
+ - [HTTP Status Codes](https://httpstatuses.com/)
+ - [Readme.SO](https://readme.so/pt/editor)
+ - [Node.gitignore](https://github.com/github/gitignore/blob/main/Node.gitignore)
+ - [Badges](https://dev.to/envoy_/150-badges-for-github-pnk)
