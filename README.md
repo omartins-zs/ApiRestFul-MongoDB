@@ -69,21 +69,24 @@ npm i dotenv
 
 ## 🚀 Tecnologias
 
-Node.js;
+- Node.js
 
-npm (gerenciamento de pacotes);
+- npm (gerenciamento de pacotes)
 
-Express (framework para Node.js);
+- Express (framework para Node.js)
 
-MongoDB (banco de dados NoSQL);
+- MongoDB (banco de dados NoSQL)
 
-Mongoose (ODM para MongoDB);
+- Mongoose (ODM para MongoDB)
 
-Padrão REST (para deixar a API RESTful);
+- Padrão REST (para deixar a API RESTful)
 
-Postman (software para teste da API);
+- Postman (software para teste da API)
 
-JSON (forma de tratar as requisições e respostas);
+- JSON (forma de tratar as requisições e respostas)
+
+<hr/>
+
 
 ## Aprendizados
 
