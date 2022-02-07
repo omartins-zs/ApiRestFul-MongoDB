@@ -1,0 +1,35 @@
+
+
+Readme Api
+
+Feito Aprendizados 
+
+Talvez Commitar melhorias a fazer
+
+[] Visualizar ARQUIVO TAREF
+## Melhorias a fazer
+
+Que melhorias você fez no seu código? Ex: refatorações, melhorias de performance, acessibilidade, etc
+- [ ] 
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+
+Link DB ApiRestFul-MongoDB 
+https://cloud.mongodb.com/v2/61f29743f64c5b04745c8ba4#metrics/replicaSet/61f298235a882821f4cc51f8/explorer
+
+Username Mongo db BielMartins
+Password Martins2023@#$ ou WTPBWP6XZ5fkBuAt
+
+Para conexao com MongoDB: mongodb+srv://BielMartins:WTPBWP6XZ5fkBuAt@apicluster.8xadz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
+1.Visualizaçao dos Dados 
+
+2.Entrar no MongoDb Atlas 
+
+3.Clickar no nome do banco -> ApiCluster
+
+4.Ir em Collections
+
+5.Ir em People
