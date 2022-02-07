@@ -1,24 +1,31 @@
-Talvez Commitar melhorias a fazer
+Anotações
 
-[] Visualizar ARQUIVO TAREF
-## Melhorias a fazer
-
-Que melhorias você fez no seu código? Ex: refatorações, melhorias de performance, acessibilidade, etc
-- [ ] 
-- [ ]
-- [ ]
-- [ ]
-- [ ]
 
 Link DB ApiRestFul-MongoDB 
 https://cloud.mongodb.com/v2/61f29743f64c5b04745c8ba4#metrics/replicaSet/61f298235a882821f4cc51f8/explorer
 
-1.Visualizaçao dos Dados 
 
-2.Entrar no MongoDb Atlas 
+Para conexao com MongoDB:
 
-3.Clickar no nome do banco -> ApiCluster
+1.Entrar no MongoDb
 
-4.Ir em Collections
+2.Clickar no nome do banco -> ApiCluster
 
-5.Ir em People
+3. Ir em Connect
+
+4.Acessar -> Connect your application
+
+5.Copiar URL de Conexão e Substituir o Password e Adicionar na Aplicação
+
+
+Visualizaçao dos Dados no DB:
+
+1.Entrar no MongoDb Atlas 
+
+2.Clickar no nome do banco -> ApiCluster
+
+3.Ir em Collections
+
+4.Ir em People
+
+5.Ver os dados
