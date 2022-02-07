@@ -102,6 +102,78 @@ npm i dotenv
 
 6. Noções de API (request, response, JSON)
 
+ <div align="center">
+
+   <h3 align="center"><i>Documentaçao da Api</em></h3>
+  
+   <h4>Configurado Variables {{URL}} no Postman</h4>
+
+   <cite align="center">`{{URL}} = http://localhost:3000`</cite>
+  
+  
+ <div align="left">
+  
+    
+#### Retorna todos os itens
+   
+```
+  GET {{URL}}/person/
+```
+
+| Parâmetro   | Tipo       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `_________` | `string`   |  Retorna todas as pessoas cadastradas |
+
+#### Retorna um item
+
+```
+  GET BY ID {{URL}}/person/${id}
+```
+
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+|     `id`    | `string`   | **Obrigatório**. O ID do item que você quer procurar |
+
+#### Cadastra um item
+
+```
+  POST {{URL}}/person
+```
+
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+|   `Body`    |   `JSON`   | **Obrigatório**. Body em JSON para Cadastro |
+
+
+#### Deleta um item
+
+```
+   DELETE {{URL}}/person/${id}
+```
+
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+|     `id`    | `string`   | **Obrigatório**. O ID do item que você quer deletar |
+
+
+#### Atualiza um item
+
+```
+   PATCH {{URL}}/person/${id} 
+```
+
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+|     `id`    | `string`   | **Obrigatório**. O ID do item que você quer atualizar |
+|     `Body`    | `JSON`   | **Obrigatório**. Body em JSON com os novos dados |
+
+
+</div>
+
+  
+</div>
+
+
 ## 🔗 Referência
 
  - Curso da Udemy [Node.js: Crie sua primeira API RESTful com MongoDB](https://www.udemy.com/course/nodejs-crie-sua-primeira-api-restful-com-mongodb/)
