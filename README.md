@@ -16,7 +16,7 @@ API Client: [Postman](https://www.postman.com/downloads/) ou [Insomnia](https://
 
 Banco de Dados: [MongoDB](https://www.mongodb.com/try/download/community)
 
-
+<br>
 <hr/>
 
 <p align="center">
@@ -101,6 +101,9 @@ npm i dotenv
 5. Utilizar DB em Cloud (MongoDB Atlas)
 
 6. Noções de API (request, response, JSON)
+
+<br>
+<hr/>
 
  <div align="center">
 
