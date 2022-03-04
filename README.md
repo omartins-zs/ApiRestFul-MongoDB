@@ -1,9 +1,12 @@
-# API RESTful com MongoDB
+<h1 align="center">API RESTful com MongoDB
+</h1>
+<p align="center"><i> Criação de uma API seguindo padrões que são utilizados em softwares de grandes empresas, no dia a dia de um desenvolvedor web.
+</i></p> 
+<br>
 
-Criação de uma API seguindo padrões que são utilizados em softwares de grandes empresas, no dia a dia de um desenvolvedor web.
 
 <p align="center">
-<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+<img src="http://img.shields.io/static/v1?label=STATUS&message=Concluido&color=GREEN&style=for-the-badge"/>
 </p>
 
 ## 📋 Pré-requisitos
